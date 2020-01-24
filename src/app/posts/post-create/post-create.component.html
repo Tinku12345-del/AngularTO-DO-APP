@@ -1,0 +1,13 @@
+
+<hr/>
+<mat-card>
+    <mat-form-field>
+      <input matInput placeholder="enter title here.." type="text" [(ngModel)]="enteredTitle" #itemname>
+    </mat-form-field>
+    <mat-form-field>
+      <textarea matInput placeholder="enter content here.." rows="6" [(ngModel)]="enteredContent"></textarea>
+    </mat-form-field>
+    <button mat-raised-button color="accent"(click)="onAddPost()" [disabled]="itemname.value==''">Save Post</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
+  </mat-card>
+    

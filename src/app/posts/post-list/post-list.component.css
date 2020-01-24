@@ -1,0 +1,19 @@
+accent {
+  background-color: #2870ac;
+}
+
+.mat-card {
+  background:lightgreen;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+.mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent {
+  background-color:blueviolet;
+}
+
+
+.mat-expansion-panel {
+  background: rgb(0, 128, 107);
+  color: rgba(0, 0, 0, 0.87);
+}
